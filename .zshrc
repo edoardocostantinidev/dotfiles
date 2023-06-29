@@ -3,7 +3,7 @@ ZSH_THEME="robbyrussell"
 ENABLE_CORRECTION="true"
 plugins=(git aws battery colorize cp docker docker-compose docker-machine dotenv emoji emoji-clock kubectl rust)
 source $ZSH/oh-my-zsh.sh
-alias gs='git switc'
+alias gs='git switch'
 alias gaa='git add -A'
 alias gcam='git commit -am'
 alias gpl='git pull --rebase'
