@@ -88,5 +88,4 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 exec xinput set-prop "VEN_04F3:00 04F3:311C Touchpad" "libinput Tapping Enabled" 1
 workspace_layout stacking
-bar {}
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
