@@ -24,4 +24,4 @@ function aws_prof {
 
   echo "%{$fg_bold[blue]%}aws:(%{$fg[yellow]%}${profile}%{$fg_bold[blue]%})%{$reset_color%} "
 }
-function jd(){ docker run --rm -i -v $PWD:$PWD -w $PWD josephburnett/jd "$@"; }
+function jd { docker run --rm -i -v $PWD:$PWD -w $PWD josephburnett/jd "$@"; }
