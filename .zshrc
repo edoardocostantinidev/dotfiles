@@ -31,3 +31,4 @@ function nhotfix {
 function ntask {
   gcb "PAACC-$1/task/$2"
 }
+export AWS_PAGER=""
