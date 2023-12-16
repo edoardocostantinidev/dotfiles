@@ -31,4 +31,5 @@ function nhotfix {
 function ntask {
   gcb "PAACC-$1/task/$2"
 }
+export PATH=$PATH:/usr/local/go/bin
 export AWS_PAGER=""
