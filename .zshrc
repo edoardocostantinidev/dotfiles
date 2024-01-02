@@ -33,3 +33,4 @@ function ntask {
 }
 export PATH=$PATH:/usr/local/go/bin
 export AWS_PAGER=""
+. "$HOME/.asdf/asdf.sh"
