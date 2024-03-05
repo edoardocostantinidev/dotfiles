@@ -41,7 +41,10 @@
       windowManager.i3 = {
         enable = true;
         extraPackages = with pkgs; [
+          dmenu
           i3status
+          i3lock
+          i3blocks
         ];
       };
       desktopManager = {
@@ -54,7 +57,7 @@
       };
       displayManager = {
         lightdm.enable = true;
-        defaultSession = "xfce+i3";
+        defaultSession = "none+i3";
       };
     };
     gvfs.enable = true;
