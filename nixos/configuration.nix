@@ -15,9 +15,18 @@
     home.stateVersion = "23.11";
   };
 
-  # Bootloader
-  boot.loader.grub.enable = false;
-
+  # Bootloader  
+  boot.loader = {
+    efi = {
+    canTouchEfiVariables = true;
+    efiSysMountPoint = "/boot/efi";    
+};
+    grub = {
+      enable = true;
+      efiSupport = true;
+	device = "nodev";
+    };
+  };
   networking = {
     firewall = {
       enable = true;
