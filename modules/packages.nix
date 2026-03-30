@@ -31,6 +31,7 @@
 
     # Utils
     htop
-    neofetch
+    fastfetch
+    gh
   ];
 }
